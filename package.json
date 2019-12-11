@@ -1,0 +1,30 @@
+{
+  "name": "regen",
+  "version": "1.0.0",
+  "description": "Remine's CLI for rapidly creating files",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "later"
+  },
+  "keywords": [
+    "CLI",
+    "Remine",
+    "files",
+    "rapid",
+    "generate",
+    "gen"
+  ],
+  "author": "Justin Conner",
+  "license": "MIT",
+  "bin": "regen.js",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "inquirer-directory": "^2.2.0",
+    "plop": "^2.5.3",
+    "yargs": "^15.0.2"
+  }
+}

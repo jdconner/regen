@@ -1,0 +1,14 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { text, boolean } from '@storybook/addon-knobs';
+
+import {{pascalCase name}} from './{{pascalCase name}}';
+import Readme from './{{pascalCase name}}.md';
+
+storiesOf('{{pascalCase name}}', module)
+    .addParameters({
+        readme: {
+            content: Readme,
+        },
+    })
+    .add('default', () => <{{pascalCase name}} error={boolean('error', false)} text={text('text', 'some text')} />);
